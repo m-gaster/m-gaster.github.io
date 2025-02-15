@@ -104,4 +104,4 @@ enable_nav: true
 nav_item:
   - { url: '/', text: 'Portfolio' }
   - { url: '/about', text: 'About' }
-  - { url: '/assets/Resume__Nov_24__1pg.pdf', text: 'CV' }
+  - { url: '/assets/Resume__Feb_25__1pg.pdf', text: 'CV' }
