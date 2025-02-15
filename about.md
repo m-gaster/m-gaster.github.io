@@ -11,15 +11,14 @@ permalink: /about/
       I'm fortunate to have a career where I direct my skills and effort toward social and economic problems that I care about.
     </p>
     <p>Please reach out if you want to collaborate, inquire, or connect!</p>
-    <ul class="contact-info">
-      <li>
-        <strong>Email:</strong>firstnamelastname@gmail.com
-        <small>(Note: first and last names are concatenated with no separator)</small>
-      </li>
-      <li>
-        <strong><a href="https://www.linkedin.com/in/mikhaelgaster/">LinkedIn</a></strong>
-      </li>
-    </ul>
+    <div class="contact-buttons">
+      <a href="mailto:mgsiteforwarding@gmail.com" class="button">
+        <img src="/assets/img/gmail_logo.png" alt="Email">
+      </a>
+      <a href="https://www.linkedin.com/in/mikhaelgaster/" class="button">
+        <img src="/assets/img/linkedin_logo.png" alt="LinkedIn">
+      </a>
+    </div>
   </section>
 </div>
 
@@ -33,64 +32,52 @@ permalink: /about/
     }
 
     section {
-        margin-bottom: 2em;
+        margin-bottom: 1.5em; /* Reduced margin */
     }
 
-    h1, h2, h3 {
-        margin: 0 0 0.5em 0; /* Adjust as needed */
+    h2 {
+        margin: 0 0 0.5em 0;
     }
 
     /* Introduction Section */
     .intro p {
         line-height: 1.6;
+        margin-bottom: 0.75em; /* Reduced margin */
     }
 
-    /* Skills Section */
-    .skills h3 {
-        border-bottom: 1px solid #eee;
-        padding-bottom: 0.5em;
+    /* Contact Buttons */
+    .contact-buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center; /* Vertically center items */
+      gap: 25px; /* Reduced gap */
+      margin-top: 0.5em; /* Reduced top margin */
     }
 
-    .skills-container {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        margin-top: 1em;
+   .button {
+        display: inline-flex; /* Use flex to control image centering */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        padding: 0;
+        background-color: transparent;
+        border: none;
+        border-radius: 10px;
+        transition: transform 0.2s ease-in-out;
     }
 
-    .skill-tag {
-        background: #f5f5f5;
-        padding: 8px 16px;
-        border-radius: 4px;
-        font-size: 0.9em;
+    .button:hover {
+        transform: scale(1.1); /* Scale up on hover */
     }
 
-    /* Work Experience Section */
-    .current-work h3{
-        border-bottom: 1px solid #eee;
-        padding-bottom: 0.5em;
-    }
+    .button img {
+        width: 35px; /* Slightly reduced size */
+        height: auto;
+        display: block;
+      }
 
-    .work-item {
-        background: #f9f9f9;
-        padding: 1em;
-        border-radius: 4px;
-        margin-bottom: 1em; /* Space between work items */
-    }
+    .email-disclaimer {
+      text-align: center;
+      margin-top: 0.25em;/*Further reduced*/
 
-    /* Contact Section */
-    .contact h3 {
-        border-bottom: 1px solid #eee;
-        padding-bottom: 0.5em;
-    }
-
-    /* General Link Styles */
-    a {
-        color: #0066cc;
-        text-decoration: none;
-    }
-
-    a:hover {
-        text-decoration: underline;
     }
 </style>
