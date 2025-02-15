@@ -29,6 +29,15 @@ markdown: kramdown
 # theme: phantom # Uncomment once published to RubyGems
 plugins:
   - jekyll-paginate
+  - jekyll-analytics
+
+jekyll_analytics:
+  Plausible:
+    domain: 'm-gaster.github.io'   # The domain configured in plausible
+    source: 'https://plausible.io/js/script.js' # The source of the javascript
+    # source: 'https://plausible.io/m-gaster.github.io/' # The source of the javascript
+  
+  
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
