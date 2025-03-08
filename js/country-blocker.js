@@ -1,7 +1,7 @@
 // country-blocker.js
 
 // Array of country codes to block
-const blockedCountries = ['RU', 'CA'];
+const blockedCountries = ['RU'];
 
 // Function to get the viewer's country based on IP address
 async function getViewerCountry() {
