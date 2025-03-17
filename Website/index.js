@@ -7,7 +7,7 @@ var typewriter = new Typewriter(app, {
 
 typewriter
   .pauseFor(1000)
-  .typeString("I'm a data scientist & climate finance researcher")
+  .typeString("Data scientist & climate finance researcher")
   .pauseFor(3000)
   .start()
 
