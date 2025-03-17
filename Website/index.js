@@ -7,7 +7,7 @@ var typewriter = new Typewriter(app, {
 
 typewriter
   .pauseFor(1000)
-  .typeString('I am a software developer and content creator from the United States.') //Add your own tagline
+  .typeString("I'm a data scientist & climate finance researcher")
   .pauseFor(3000)
   .start()
 
@@ -88,7 +88,7 @@ window.onclick = function(event) {
 //BUTTON 3 -- links to outside website
 var btn3 = document.getElementById("btn3");
 btn3.onclick = function() { 
-  window.open("https://www.nintendo.com", "_blank") //TODO add your link
+  window.open("https://www.ox.ac.uk/", "_blank") // Link to Oxford University
 }
 
 //BUTTON 4
@@ -146,7 +146,7 @@ window.onclick = function(event) {
 //BUTTON 6 -- links to outside website
 var btn6 = document.getElementById("btn6");
 btn6.onclick = function() { 
-  window.open("https://www.arduino.cc", "_blank") //TODO add your link
+  window.open("https://www.ubc.ca/", "_blank") // Link to University of British Columbia
 }
 
 //HOBBY MODALS

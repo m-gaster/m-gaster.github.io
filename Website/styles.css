@@ -188,6 +188,21 @@ ul {
   color: white;
 }
 
+/* Styling for in-line paragraph links */
+p:not(.time-text) a {
+  color: #5a5a5a;          /* Slightly darker for better visibility */
+  text-decoration: underline;
+  text-decoration-color: #aaa;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  transition: all 0.3s ease;
+}
+
+p:not(.time-text) a:hover {
+  color: #0066cc;          /* Standard hyperlink blue on hover */
+  text-decoration-color: #0066cc;
+}
+
 /* Styling for the progress bars */
 
 .progressbar {
