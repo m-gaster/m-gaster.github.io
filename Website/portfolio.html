@@ -17,39 +17,39 @@
     <!-- Header with gradient background -->
     <canvas id="canvas-image-blending"></canvas>
 
-    <div class="main-content" style="text-align: center; width: 100%; position: absolute">
+    <div class="main-content" style="text-align: center; width: 100%; position: absolute;">
       <center>
         <!-- Header section -->
-        <div class="" style="height: 400px;">
-          <h1 style="padding-top: 150px; color: white;">Portfolio</h1>
-          <p style="padding-top: 25px; color: white;">A collection of my projects and work</p>
+        <div class="" style="height: 750px;">
+          <h1 style="padding-top: 230px; color: white;">Portfolio</h1>
+          <!-- <p style="padding-top: 25px; color: white;">A collection of my projects and work</p> -->
         </div>
 
         <!-- Navigation back to main page -->
         <div style="padding-bottom: 30px;">
-          <a href="index.html" class="btn btn-outline-primary">← Back to Main Page</a>
+          <a href="index.html" class="btn btn-outline-primary">← Home</a>
         </div>
 
         <!-- Portfolio introduction -->
-        <div style="padding-bottom: 50px;">
+        <!-- <div style="padding-bottom: 30px; margin-top: 20px;">
           <p>Here you'll find a selection of my projects. Click on any image to learn more about the project.</p>
-        </div>
+        </div> -->
 
         <!-- Portfolio grid -->
-        <div class="portfolio-grid">
+        <div class="portfolio-grid" style="margin-top: 30px;">
           <!-- Portfolio Item 1 -->
-          <div class="portfolio-item" id="portfolioItem1">
+          <!-- <div class="portfolio-item" id="portfolioItem1">
             <img src="assets/industry_concentration.png" alt="Data Visualization" class="portfolio-image">
             <div class="portfolio-overlay">
               <h3>Data Visualization</h3>
             </div>
-          </div>
+          </div> -->
 
           <!-- Portfolio Item 2 -->
           <div class="portfolio-item" id="portfolioItem2">
-            <img src="assets/proxy_table.png" alt="Database Project" class="portfolio-image">
+            <img src="assets/proxy_table_preview.png" alt="Proxy Database Project" class="portfolio-image">
             <div class="portfolio-overlay">
-              <h3>Database Project</h3>
+              <h3>Proxy Voting Database</h3>
             </div>
           </div>
 
@@ -57,34 +57,47 @@
           <div class="portfolio-item" id="portfolioItem3">
             <img src="assets/who_what_where_preview.png" alt="NLP Research" class="portfolio-image">
             <div class="portfolio-overlay">
-              <h3>NLP Research</h3>
+              <h3>The Who, What, When, and How of Industrial Policy</h3>
             </div>
           </div>
 
           <!-- Portfolio Item 4 -->
           <div class="portfolio-item" id="portfolioItem4">
-            <img src="assets/deetken-simulated_energy_demand.png" alt="Energy Modeling" class="portfolio-image">
+            <img src="assets/PEoIP_fig1.png" alt="Political Economy of Industrial Policy" class="portfolio-image">
             <div class="portfolio-overlay">
-              <h3>Energy Modeling</h3>
+              <h3>The Political Economy of Industrial Policy</h3>
             </div>
           </div>
 
           <!-- Portfolio Item 5 -->
           <div class="portfolio-item" id="portfolioItem5">
-            <img src="assets/textile_machinery_imports_share_of_total.png" alt="Economic Analysis" class="portfolio-image">
+            <img src="assets/ubi_labour_force_fig3.png" alt="UBI & Labor Force Participation" class="portfolio-image">
             <div class="portfolio-overlay">
-              <h3>Economic Analysis</h3>
+              <h3>UBI & Labor Force Participation</h3>
             </div>
           </div>
 
           <!-- Portfolio Item 6 -->
           <div class="portfolio-item" id="portfolioItem6">
-            <img src="assets/racial_crosstab.png" alt="Demographic Research" class="portfolio-image">
+            <img src="assets/racial_crosstab.png" alt="MC Police Accountability Audit" class="portfolio-image">
             <div class="portfolio-overlay">
-              <h3>Demographic Research</h3>
+              <h3>MC Police Accountability Audit</h3>
             </div>
           </div>
+
+          <!-- Portfolio Item 7 -->
+          <div class="portfolio-item" id="portfolioItem7">
+            <img src="assets/econ_ma_final_paper_screenshot.png" alt="Econ MA Paper Preview" class="portfolio-image">
+            <div class="portfolio-overlay">
+              <h3>Do Conspiracy Theorists Update Their Priors?</h3>
+            </div>
+          </div>
+
+
         </div>
+
+        
+
 
         <!-- Footer -->
         <div style="margin-top: 80px; padding-bottom: 40px;">
@@ -92,148 +105,73 @@
         </div>
 
         <!-- Portfolio Modals -->
-        <!-- Modal for Portfolio Item 1 -->
-        <div id="portfolioModal1" class="modal">
-          <div class="modal-content">
-            <span class="closePortfolioModal1">&times;</span>
-            <h2>Data Visualization Project</h2>
-            <br>
-            <img src="assets/industry_concentration.png" style="max-width: 100%; border-radius: 10px;" alt="Data Visualization Detail">
-            <p>This project involved creating advanced data visualizations to analyze industry concentration patterns. The visualizations helped identify key trends and insights that informed strategic decision-making.</p>
-            <p>Key features:</p>
-            <ul>
-              <li>Interactive data exploration</li>
-              <li>Multi-dimensional analysis</li>
-              <li>Time-series visualization</li>
-            </ul>
-            <p>Technologies used:</p>
-            <ul>
-              <li>Python (Matplotlib, Seaborn)</li>
-              <li>D3.js</li>
-              <li>Tableau</li>
-            </ul>
-          </div>
-        </div>
-
         <!-- Modal for Portfolio Item 2 -->
-        <div id="portfolioModal2" class="modal">
+        <div id="portfolioModal2" class="portfolio-modal">
           <div class="modal-content">
-            <span class="closePortfolioModal2">&times;</span>
-            <h2>Database Project</h2>
-            <br>
-            <img src="assets/proxy_table.png" style="max-width: 100%; border-radius: 10px;" alt="Database Project Detail">
-            <p>Led the development of a comprehensive database system that transformed proprietary data into a publicly accessible resource. This project democratized access to critical financial information.</p>
-            <p>Key features:</p>
-            <ul>
-              <li>Data normalization and cleaning</li>
-              <li>API development</li>
-              <li>Interactive front-end interface</li>
-            </ul>
-            <p>Technologies used:</p>
-            <ul>
-              <li>Python</li>
-              <li>SQL</li>
-              <li>FastAPI</li>
-              <li>Docker</li>
-            </ul>
+            <span class="close closePortfolioModal2">&times;</span>
+            <h2>Proxy Voting Database</h2>
+            <p>Lead (full-stack) developer of the first free public proxy voting database. This project democratizes data that is otherwise only available via $100k/year commercial licensing.</p>
+            <a href="https://proxydata.org" target="_blank" class="btn btn-primary">Visit Project</a>
           </div>
         </div>
 
         <!-- Modal for Portfolio Item 3 -->
-        <div id="portfolioModal3" class="modal">
+        <div id="portfolioModal3" class="portfolio-modal">
           <div class="modal-content">
-            <span class="closePortfolioModal3">&times;</span>
-            <h2>NLP Research Project</h2>
-            <br>
-            <img src="assets/who_what_where_preview.png" style="max-width: 100%; border-radius: 10px;" alt="NLP Research Detail">
-            <p>Spearheaded the development of text classification workflows for academic research. Improved model accuracy from 87% to 94% and implemented professional best practices.</p>
-            <p>Key features:</p>
-            <ul>
-              <li>Text classification</li>
-              <li>Entity extraction</li>
-              <li>Feature importance analysis</li>
-            </ul>
-            <p>Technologies used:</p>
-            <ul>
-              <li>Python (NLTK, spaCy)</li>
-              <li>Machine Learning</li>
-              <li>LLMs</li>
-            </ul>
+            <span class="close closePortfolioModal3">&times;</span>
+            <h2>The Who, What, When, and How of Industrial Policy</h2>
+            <p>Wrote the ML and AI/LLM code for an influential paper, which was the first to offer a blanket quantitative analysis of international industrial policies.</p>
+            <a href="https://steg.cepr.org/sites/default/files/2023-01/WP050%20Juh%C3%A1szLaneOehlsenP%C3%A9rez%20TheWhoWhatWhenAndHowOfIndustrialPolicy.pdf" target="_blank" class="btn btn-primary">Read the Paper</a>
           </div>
         </div>
 
         <!-- Modal for Portfolio Item 4 -->
-        <div id="portfolioModal4" class="modal">
+        <div id="portfolioModal4" class="portfolio-modal">
           <div class="modal-content">
-            <span class="closePortfolioModal4">&times;</span>
-            <h2>Energy Modeling Project</h2>
-            <br>
-            <img src="assets/deetken-simulated_energy_demand.png" style="max-width: 100%; border-radius: 10px;" alt="Energy Modeling Detail">
-            <p>Developed a comparative static CGE model to estimate the economic impacts of climate policies. This comprehensive analysis examined effects on various sectors, households, and demographic groups.</p>
-            <p>Key features:</p>
-            <ul>
-              <li>Economic modeling</li>
-              <li>Policy impact analysis</li>
-              <li>Multi-sector simulation</li>
-            </ul>
-            <p>Technologies used:</p>
-            <ul>
-              <li>Python</li>
-              <li>R</li>
-              <li>Statistical methods</li>
-            </ul>
+            <span class="close closePortfolioModal4">&times;</span>
+            <h2>The Political Economy of Industrial Policy</h2>
+            <p>Wrote the AI/LLM code that underpinned an influential research paper published in a top economics journal.</p>
+            <a href="https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.38.4.27" target="_blank" class="btn btn-primary">Read the Paper</a>
           </div>
         </div>
 
         <!-- Modal for Portfolio Item 5 -->
-        <div id="portfolioModal5" class="modal">
+        <div id="portfolioModal5" class="portfolio-modal">
           <div class="modal-content">
-            <span class="closePortfolioModal5">&times;</span>
-            <h2>Economic Analysis Project</h2>
-            <br>
-            <img src="assets/textile_machinery_imports_share_of_total.png" style="max-width: 100%; border-radius: 10px;" alt="Economic Analysis Detail">
-            <p>Conducted in-depth economic analysis to understand trade patterns and industrial development. This research provided insights into economic transitions and development pathways.</p>
-            <p>Key features:</p>
-            <ul>
-              <li>Trade flow analysis</li>
-              <li>Time-series modeling</li>
-              <li>Comparative advantage assessment</li>
-            </ul>
-            <p>Technologies used:</p>
-            <ul>
-              <li>R</li>
-              <li>Econometrics</li>
-              <li>Data visualization</li>
-            </ul>
+            <span class="close closePortfolioModal5">&times;</span>
+            <h2>UBI & Labor Force Participation</h2>
+            <p>A literature review examining the impacts of universal basic income on labor force participation.</p>
+            <a href="https://github.com/m-gaster/UBI-Labour-Force-Participation-/blob/main/561%20Final%20Paper.pdf" target="_blank" class="btn btn-primary">Read the Paper</a>
           </div>
         </div>
 
         <!-- Modal for Portfolio Item 6 -->
-        <div id="portfolioModal6" class="modal">
+        <div id="portfolioModal6" class="portfolio-modal">
           <div class="modal-content">
-            <span class="closePortfolioModal6">&times;</span>
-            <h2>Demographic Research Project</h2>
-            <br>
-            <img src="assets/racial_crosstab.png" style="max-width: 100%; border-radius: 10px;" alt="Demographic Research Detail">
-            <p>Analyzed demographic patterns and their relationship to economic and social outcomes. This research helped identify disparities and inform policy recommendations.</p>
-            <p>Key features:</p>
-            <ul>
-              <li>Cross-tabulation analysis</li>
-              <li>Demographic segmentation</li>
-              <li>Policy impact assessment</li>
-            </ul>
-            <p>Technologies used:</p>
-            <ul>
-              <li>Python</li>
-              <li>Statistical analysis</li>
-              <li>Data visualization</li>
-            </ul>
+            <span class="close closePortfolioModal6">&times;</span>
+            <h2>MC Police Accountability Audit</h2>
+            <p>(Ongoing) Analysis of traffic stop data in my hometown of Montgomery County, Maryland. Found clear evidence of racial bias, and shared with local politicians.</p>
+            <a href="https://github.com/m-gaster/mcpd-accountability/blob/main/racial_crosstab.ipynb" target="_blank" class="btn btn-primary">Explore Research</a>
           </div>
         </div>
+
+        <!-- Modal for Portfolio Item 7 -->
+        <div id="portfolioModal7" class="portfolio-modal">
+            <div class="modal-content">
+              <span class="close closePortfolioModal7">&times;</span>
+              <h2>Do Conspiracy Theorists Update Their Priors?</h2>
+              <p>Our paper uses a novel econometric design to investigate whether COVID-19 deniers changed their beliefs when they experienced the virus first-hand.
+                Written to fulfill the empirical research requirements for a Master's degree in Economics.</p>
+              <a href="https://github.com/m-gaster/Twitter-Conspiracies/blob/main/Econ%20MA%20Final%20Paper.pdf" target="_blank" class="btn btn-primary">Read the Paper</a>
+            </div>
+          </div>        
+
+
 
       </center>
     </div>
 
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoM4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="granim.min.js"></script>
     <script src="portfolio.js"></script>

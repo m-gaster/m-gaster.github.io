@@ -203,6 +203,26 @@ p:not(.time-text) a:hover {
   text-decoration-color: #0066cc;
 }
 
+/* Portfolio navigation link styling */
+.portfolio-nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.portfolio-nav-link:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
 /* Styling for the progress bars */
 
 .progressbar {
