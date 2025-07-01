@@ -1,10 +1,208 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="refresh" content="0; url=Website/index.html">
-    <title>Redirecting...</title>
-</head>
-<body>
-    <p>If you are not redirected automatically, <a href="Website/index.html">click here</a>.</p>
-</body>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mikhael Gaster - Personal Website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="granim.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script defer data-domain="m-gaster.github.io" src="https://plausible.io/js/script.file-downloads.outbound-links.js"></script>
+
+
+    <link rel="icon" href="M_favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="M_favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="M_favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="M_favicon/favicon-16x16.png">
+    <link rel="manifest" href="M_favicon/site.webmanifest">
+  </head>
+  <body>
+    <canvas id="canvas-image-blending"></canvas>
+
+    <div class="main-content" style="text-align: center; width: 100%; position: absolute">
+      <center>
+
+        <div class="" style="height: 750px;">
+          <h1 style="padding-top: 230px; color: white;">Mikhael Gaster</h1>
+          <p style="padding-top: 25px; color: white;" id="app"></p>
+        </div>
+
+        <!-- Navigation to portfolio page -->
+        <!-- <div style="padding-bottom: 30px;">
+          <a href="portfolio.html" class="btn btn-outline-primary">Portfolio →</a>
+        </div> -->
+        <!-- Navigation back to main page -->
+        <div style="padding-bottom: 30px;">
+            <a href="portfolio.html" class="btn btn-outline-primary">Portfolio →</a>
+          </div>
+          
+        <h1 style="padding-bottom: 10px; padding-top: 10px;">About Me</h1>
+
+        <!-- Introduction -->
+        <div class="flex-container-reverse" style="padding-bottom: 50px; padding-top: 20px;">
+          <div class="big-container-left">
+            <p class="time-text" style="font-size:24px; font-style: italic;">Researcher with experience in data science, climate finance, corporate governance, and consulting.</p>
+            <p style="padding-bottom: 5px;">I use my skills to benefit people and the planet. I'm currently leading international climate, finance, and economics projects at the Jain Family Institute; in the past, I've conducted academic research with scholars at Oxford and UBC, created models for the government of British Columbia, and freelanced.</p>
+          </div>
+          <div class="small-container-right">
+            <img src="assets/top_of_fan_si_pan.jpg" class="title-image">
+          </div>
+        </div>
+
+        <h1 style="padding-bottom: 20px">Current Work</h1>
+
+        <!-- Current Project #1 -->
+        <div class="flex-container-reverse" style="padding-bottom: 50px; padding-top: 40px;">
+          <div class="big-container-left">
+            <h3>Data Science Research Associate</h3>
+            <p class="time-text">2025 - Present | <a href="https://jainfamilyinstitute.org/">The Jain Family Institute</a></p>
+            <p>Leading quantitative and qualitative analyses of price stabilization strategies and policies in Brazil.</p>
+            <!-- <p>Leading a team in conducting quantitative and qualitative/strategic research to accelerate the energy transition in developing economies. Using economic modelling, coding, and qualitative research to analyze complex economic, environmental, and financial information.</p> -->
+            <p>Led a team in conducting quantitative and qualitative/strategic research to accelerate the energy transition in developing economies. Using economic modelling, coding, and qualitative research to analyze complex economic, environmental, and financial information.</p>
+            <!-- <button style="padding-bottom: 5px;" type="button" class="btn btn-outline-success" id="btn1">See more</button> -->
+          </div>
+          <div class="small-container-right">
+            <!-- <img src="assets/industry_concentration.png" class="title-image"> -->
+            <img src="assets/textile_machinery_imports_share_of_total.png" class="title-image">
+          </div>
+        </div>
+
+        <!-- Current Project #2 -->
+        <div class="flex-container-reverse" style="padding-bottom: 50px; padding-top: 40px;">
+          <div class="big-container-left">
+            <h3>Lead Developer ← <span style="color: grey;">Data Science Research Fellow</span></h3>
+              <p class="time-text">2023 - Present | <a href="https://activestewardship.org/?utm_source=m-gaster.github.io&utm_medium=referral&utm_campaign=mg_personal_site">Center for Active Stewardship</a></p>
+              <p>
+                Leading our press, fundraising, and technical work. 
+                <br>
+                <!-- <br> -->
+                <ul>
+                    <li class="time-text">Full-stack developer of <a href="https://proxydata.org">ProxyData</a>, which makes a $100k/year dataset available to the public.</li>
+                    <li class="time-text">Designed end-to-end pipeline — parsing, probabilistic standardization, graph algorithms, data upload, API service, and front-end — using Python, Typescript, DuckDB, FastAPI, Docker, and MS Azure.</li>
+                    <!-- <li class="time-text">Created interactive front-end and public API; > X requests/mo (add a metric if you have it).</li> -->
+                    <li class="time-text">Drove press coverage.</li>
+                    <li class="time-text">Led development of <a href="https://activestewardship.org/ratings">climate proxy-voting ratings</a>.</li>
+                </ul>
+                <!-- Full-stack developer for our <a href="https://proxydata.org/?utm_source=m-gaster.github.io&utm_medium=referral&utm_campaign=mg_personal_site">
+                    flagship database</a>, which makes a $100k/year commercial product available to the public.
+                     Technical work included developing and deploying our entire stack, from parsing algorithms to probabilistic standardization,
+                      and developing our API and interactive front-end. Utilizing a wide range of tools and techniques, including Python, SQL, LLMs,
+                       polars, text embedding, clustering, FastAPI, docker, and graph algorithms -->
+                <!-- a back-end deployment of algorithms for parsing and normalizing data using bespoke probabilistic algorithms; developing an internal (but soon-to-be-public) database API; and creating an interactive front-end display of the database. Utilizing a wide range of tools including Python, SQL, LLMs, text embedding, clustering, FastAPI, docker, and graph algorithms. -->
+              <!-- <p>Full stack lead developer for our <a href="https://proxydata.org/?utm_source=m-gaster.github.io&utm_medium=referral&utm_campaign=mg_personal_site">flagship database</a>, which makes a $100k/year commercial product available to the public. Responsible for press, fundraising, and ... Programming responsibilities include back-end deployment of algorithms for parsing and normalizing data using bespoke probabilistic algorithms; developing an internal (but soon-to-be-public) database API; and creating an interactive front-end display of the database. Utilizing a wide range of tools including Python, SQL, LLMs, text embedding, clustering, FastAPI, docker, and graph algorithms. -->
+            <!-- <p>Full stack lead developer for our <a href="https://proxydata.org/?utm_source=m-gaster.github.io&utm_medium=referral&utm_campaign=mg_personal_site">flagship database</a>, which makes a $100k/year commercial product available to the public. Responsibilities include parsing, normalizing, and correcting data from public financial filings; creating and deploying our database via a (soon to be public) API; and creating an interactive front-end display of the database. Utilizing a wide range of tools including Python, SQL, LLMs, text embedding, clustering, FastAPI, docker, and graph algorithms. -->
+            <br><br>
+            Also lead developer of our <a href="https://activestewardship.org/ratings/?utm_source=m-gaster.github.io&utm_medium=referral&utm_campaign=mg_personal_site">climate proxy voting ratings system</a>.
+            </p>
+            <!-- <button style="padding-bottom: 5px;" type="button" class="btn btn-outline-success" id="btn2">See more</button> -->
+          </div>
+          <div class="small-container-right">
+            <img src="assets/proxy_table_preview.png" class="title-image">
+          </div>
+        </div>
+
+
+        <!-- Completed projects -->
+        <h1 style="padding-bottom: 20px">Past Experience</h1>
+
+
+        <!-- Completed Project #1 -->
+        <div class="flex-container" style="padding-bottom: 50px; padding-top: 40px;">
+            <div class="small-container-left">
+                <img src="assets/who_what_where_preview.png" class="title-image">
+            </div>
+            <div class="big-container-right">
+                <h3>NLP Research Assistant</h3>
+                <p class="time-text">2023 - 2024 | <a href="https://www.industrialpolicygroup.com/">The Industrial Policy Group</a> (Oxford + UBC)</p>
+                <p>Spearheaded the development and improvement of text classification workflows underpinning pioneering and influential <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4198209">research</a> <a href="https://www.aeaweb.org/articles?id=10.1257/jep.38.4.27">papers</a>. Improved model accuracy from 87% to 94%. Derived feature importance from fine-tuned LLMs. Used LLMs to extract and normalize entity names, descriptions, and abbreviations from text. Implemented professional best practices, including version control and testing protocols.</p>
+                <!-- <button style="padding-bottom: 5px;" type="button" class="btn btn-outline-success" id="btn3">Visit</button> -->
+            </div>
+        </div>          
+
+        <!-- Completed Project #2 -->
+        <div class="flex-container" style="padding-bottom: 100px; padding-top: 50px;">
+          <div class="small-container-left">
+            <img src="assets/deetken-simulated_energy_demand.png" alt="" class="title-image">
+          </div>
+          <div class="big-container-right">
+            <h3>Data Science and Analytics Consultant</h3>
+            <p class="time-text">2021 - 2022 | <a href="https://deetken.com/">Deetken Insight Consulting</a></p>
+            <p style="padding-bottom: 10px;">Developed a <a href="https://deetken.com/case-studies/economic-modelling-for-climate-policy/">comparative static CGE model</a> to estimate the economic impacts of BC's climate policies on sectors, households, demographic groups, commodities, and more. My proposal won the $150k bid.<br><br>Other projects included a forensic audit of a major utility's environmental/financial modelling, and a project described as "hands down one of, if not the, best consulting engagements we have commissioned."</p>
+            <!-- <button type="button" class="btn btn-outline-success" id="btn4">See more</button> -->
+          </div>
+        </div>
+
+        <!-- Completed Project #2 -->
+        <!-- <div class="flex-container" style="padding-bottom: 100px; padding-top: 50px;">
+          <div class="small-container-left">
+            <img src="assets/project5.webp" alt="" class="title-image">
+          </div>
+          <div class="big-container-right">
+            <h3>M.A. in Economics</h3>
+            <p class="time-text">2020 - 2021 | The University of British Columbia</p>
+            <p style="padding-bottom: 10px;">Completed my Master's degree in Economics with a GPA of 4.3/4.33. Focused on quantitative methods, econometrics, and causal inference. Completed my </p>
+            <button type="button" class="btn btn-outline-success" id="btn5">See more</button>
+          </div>
+        </div> -->
+
+        <!-- Completed Project #3 -->
+        <!-- <div class="flex-container" style="padding-bottom: 100px; padding-top: 50px;">
+          <div class="small-container-left">
+            <img src="assets/project6.webp" alt="" class="title-image">
+          </div>
+          <div class="big-container-right">
+            <h3>B.A. in Economics & Mathematics</h3>
+            <p class="time-text">2015 - 2019 | The University of British Columbia</p>
+            <p style="padding-bottom: 10px;">Earned a dual degree in Economics and Mathematics with a perfect 4.0/4.33 GPA. Built a strong foundation in quantitative analysis, statistical methods, and economic theory. Developed problem-solving skills and analytical thinking that have been essential throughout my career.</p>
+            <button type="button" class="btn btn-outline-success" id="btn6">Visit</button>
+          </div>
+        </div> -->
+
+
+
+        <!-- Education -->
+        <h1 style="padding-bottom: 20px; padding-top: 40px;">Education</h1>
+        
+        <div class="row">
+          <div class="col-md-6">
+            <h3>M.A. in Economics</h3>
+            <p class="time-text">2020-2021</p>
+            <p>The University of British Columbia</p>
+            <p>GPA: 4.3 / 4.33</p>
+          </div>
+          <div class="col-md-6">
+            <h3>B.A. in Econ & Math</h3>
+            <p class="time-text">2015-2019</p>
+            <p>The University of British Columbia</p>
+            <p>GPA: 4.0 / 4.33</p>
+          </div>
+        </div>
+
+
+
+        <!-- Contact me / ending section -->
+        <h1 style="padding-bottom: 20px; padding-top: 80px;">Contact Me</h1>
+
+        <!-- <img src="assets/endingImage.jpeg"  class="rounded-corners"> -->
+
+        <!-- <br> <br> -->
+
+        <p style="padding-bottom: 20px;">Reach out if you want to collaborate, inquire, or connect! </p>
+
+        <a href="mailto:mgsiteforwarding@gmail.com" class="fa fa-paper-plane" style="margin-right: 10px"></a>
+        <a href="https://www.linkedin.com/in/mikhaelgaster" target="_blank" rel="noopener noreferrer" class="fa fa-linkedin" style="margin-right: 10px; background: #0077B5; color: white;"></a>
+        <a href="https://github.com/m-gaster" target="_blank" rel="noopener noreferrer" class="fa fa-github"></a>
+
+        <br> <br> <br>
+
+        <p>Made with ❤ with HTML, CSS, Javascript, & Bootstrap. Template from <a href="https://rosacodes.gumroad.com/l/personal-website-template">Rosacodes</a></p>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
 </html>
